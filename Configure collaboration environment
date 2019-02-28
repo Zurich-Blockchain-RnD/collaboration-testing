@@ -1,0 +1,22 @@
+1. create slack channel - private / public
+2. create github repo
+3. create trello board
+
+4. in slack channel press settings -> add apps. make sure "trello alerts" and "github" and "kyber" are installed.
+5. in the settings of the trello alerts app, "add configuration" and set it to recieve alerts from the correct board into the correct channel
+6. in team channel write /github subsribe [github organization name]/[repo name]
+8. on the trello board add github powerup
+9. you can use kyber to conduct public/anonymous votes
+
+
+Webhooks for Huboard (not in use)
+
+Slack + Huboard + GitHub:
+
+1. in slack team channel: settings icon -> add apps -> search "webhook" -> install or selcet incoming webhook -> selcet desired channel -> generate and copy webhook URL
+2. in Huboard project board: settings icon (could be triangle if issue with board) -> integrations -> slack -> paste slack webhook URL -> name channel -> submit webhook 
+
+Slack + Trello + GitHub:
+
+https://zurich-blockchain-rnd.slack.com/services/BGDRQUVBK?added=1
+
