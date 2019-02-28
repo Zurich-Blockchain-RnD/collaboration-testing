@@ -1,22 +1,24 @@
+Our current setup allows teams to collaborate in slack while getting notifications in their channel about things that happen 
+in their GitHub repo or on their Trello board.
+
+Setup instructions for Slack + Trello + GitHub:
+
+Creating spaces:
 1. create slack channel - private / public
-2. create github repo
-3. create trello board
+2. create GitHub repo
+3. create Trello board
+Configuring spaces:
+4. in slack channel press settings -> add apps. make sure "Trello alerts" and "GitHub" and "Kyber" are installed.
+5. in the settings of the Trello alerts app, "add configuration" and set it to receive alerts from the correct board into the correct channel
+6. in team channel write “/github subscribe [github organization name]/[repo name]” to add notifications from the selected repo
+8. on the Trello board add “GitHub” powerup to connect cards to GitHub actions
+9. you can use Kyber to conduct public/anonymous votes
 
-4. in slack channel press settings -> add apps. make sure "trello alerts" and "github" and "kyber" are installed.
-5. in the settings of the trello alerts app, "add configuration" and set it to recieve alerts from the correct board into the correct channel
-6. in team channel write /github subsribe [github organization name]/[repo name]
-8. on the trello board add github powerup
-9. you can use kyber to conduct public/anonymous votes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+(Example of setting up Webhooks  (Huboard - not in use)
 
-Webhooks for Huboard (not in use)
+Setup instructions for Slack + Huboard + GitHub:
 
-Slack + Huboard + GitHub:
-
-1. in slack team channel: settings icon -> add apps -> search "webhook" -> install or selcet incoming webhook -> selcet desired channel -> generate and copy webhook URL
-2. in Huboard project board: settings icon (could be triangle if issue with board) -> integrations -> slack -> paste slack webhook URL -> name channel -> submit webhook 
-
-Slack + Trello + GitHub:
-
-https://zurich-blockchain-rnd.slack.com/services/BGDRQUVBK?added=1
-
+1. in slack team channel: settings icon -> add apps -> search "webhook" -> install or select incoming webhook -> select desired channel -> generate and copy webhook URL
+2. in Huboard project board: settings icon (could be triangle if issue with board) -> integrations -> slack -> paste slack webhook URL -> name channel -> submit webhook
