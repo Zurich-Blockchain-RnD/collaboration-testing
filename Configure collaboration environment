@@ -21,4 +21,4 @@ Configuring spaces:
 Setup instructions for Slack + Huboard + GitHub:
 
 1. in slack team channel: settings icon -> add apps -> search "webhook" -> install or select incoming webhook -> select desired channel -> generate and copy webhook URL
-2. in Huboard project board: settings icon (could be triangle if issue with board) -> integrations -> slack -> paste slack webhook URL -> name channel -> submit webhook
+2. in Huboard project board: settings icon (could be triangle if issue with board) -> integrations -> slack -> paste slack webhook URL -> name channel -> submit webhook.
