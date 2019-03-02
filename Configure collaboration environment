@@ -11,6 +11,7 @@ Configuring spaces:
 4. in slack channel press settings -> add apps. make sure "Trello alerts" and "GitHub" and "Kyber" are installed.
 5. in the settings of the Trello alerts app, "add configuration" and set it to receive alerts from the correct board into the correct channel
 6. in github repo that is subscribed to slack, go to settings -> integrations & services -> configure (slack) -> select repositories -> selcet repository to connect with slack -> save
+https://github.com/organizations/Zurich-Blockchain-RnD/settings/installations/689093
 7. in team channel write “/github subscribe [github organization name]/[repo name]” to add notifications from the selected repo
 8. on the Trello board add “GitHub” powerup to connect cards to GitHub actions
 9. you can use Kyber to conduct public/anonymous votes
