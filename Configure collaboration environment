@@ -14,6 +14,7 @@ Configuring spaces:
 https://github.com/organizations/Zurich-Blockchain-RnD/settings/installations/689093
 7. in team channel write “/github subscribe [github organization name]/[repo name]” to add notifications from the selected repo
 8. on the Trello board add “GitHub” powerup to connect cards to GitHub actions
+9. add members to GitHub repository teams
 9. you can use Kyber to conduct public/anonymous votes
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
